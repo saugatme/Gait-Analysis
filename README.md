@@ -31,9 +31,12 @@ This script analyzes **human gait** using computer vision and data processing te
 - The extracted gait angles are saved in a **CSV file**.
 - Checks for **missing values** and fills them using **cubic spline interpolation** for a smooth, continuous dataset.
 
+
 ### **3.2 Plotting & Comparing Data**
 - Creates **before-and-after plots** to visualize the raw data and interpolated data.
 - Uses **subplot layouts, titles, labels, and grids** for clarity.
+<img width="1567" height="1066" alt="P001R" src="https://github.com/user-attachments/assets/ea1dfdeb-0e16-4ebc-9999-db3a6d260852" />
+<img width="1989" height="2305" alt="P001R" src="https://github.com/user-attachments/assets/56d6053f-c3ec-4f67-a91d-309718503070" />
 
 ## **Conclusion**
 This script provides a **comprehensive gait analysis** by automating **video processing, key point detection, angle calculation, data storage, and visualization**. The use of **cubic spline interpolation** ensures a **smooth representation** of gait angles, improving the accuracy of analysis.
